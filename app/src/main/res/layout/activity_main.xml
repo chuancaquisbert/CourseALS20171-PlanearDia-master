@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBoton4"
+    tools:context="tech.alvarez.planeardia.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="detener"
+            android:text="@string/parar_registro"
+            android:background="@color/colorBoton1"
+            android:drawableLeft="@mipmap/ic_inicio"
+            android:textSize="8sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="verEnMapa"
+            android:text="@string/ver_mapa"
+            android:background="@color/colorBoton2"
+            android:drawableLeft="@mipmap/ic_mostrar"
+            android:textSize="8sp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="listaPuntos"
+            android:text="@string/ver_trayecto"
+            android:background="@color/colorBoton3"
+            android:drawableLeft="@mipmap/ic_listar"
+            android:textSize="8sp"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/latitud" />
+
+            <TextView
+                android:id="@+id/latitudTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                tools:text="Aquí viene la latitud" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/longitud" />
+
+            <TextView
+                android:id="@+id/longitudTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                tools:text="Aquí viene la longitud" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

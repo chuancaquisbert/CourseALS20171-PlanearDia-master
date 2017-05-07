@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mi Trayectoria</string>
+    <string name="title_activity_maps">Mi Mapa de Trayectoria</string>
+
+    <string name="ver_mapa">Ver Mapa</string>
+    <string name="ver_trayecto">Ver Trayectoria</string>
+    <string name="puntos_trayectoria">Puntos de mi Trayectoria</string>
+    <string name="latitud">LATITUD</string>
+    <string name="longitud">LONGITUD</string>
+    <string name="captura_puntos">Captura de Puntos</string>
+    <string name="parar_registro">Parar Registro</string>
+</resources>
